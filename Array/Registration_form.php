@@ -85,7 +85,6 @@
         }
         
         if (empty($errors)) {
-            // Process registration (e.g., save to database)
             echo "<p>Registration successful!</p>";
         } else {
             foreach ($errors as $error) {
